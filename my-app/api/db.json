@@ -23,6 +23,41 @@
       "rollnumber": 39,
       "name": "Rajitha",
       "id": 0.354861596136111
+    },
+    {
+      "totalmarks": 67,
+      "activites": "45",
+      "Social": "35",
+      "Hindi": "65",
+      "Telugu": "46",
+      "English": "25",
+      "rollnumber": 39,
+      "name": "Rajuu",
+      "id": 0.4225436286604516
+    },
+    {
+      "totalmarks": 89,
+      "activites": "45",
+      "Social": "13",
+      "Science": "67",
+      "Hindi": "32",
+      "Telugu": "46",
+      "English": "25",
+      "rollnumber": 6,
+      "name": "kranthi",
+      "id": 0.7158723670609022
+    },
+    {
+      "totalmarks": 89,
+      "activites": "56",
+      "Social": "35",
+      "Science": "45",
+      "Hindi": "65",
+      "Telugu": "34",
+      "English": "25",
+      "rollnumber": 39,
+      "name": "pragathiii",
+      "id": 0.7702584062025015
     }
   ]
 }

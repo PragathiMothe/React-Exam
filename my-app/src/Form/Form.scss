@@ -2,21 +2,22 @@
     // background-color:#9898988C;
 }
 .form {
-    width:500px;
+    width:580px;
     border:1px,solid gray;
     // margin:50px;
     margin-top:40px;
-    margin-left: 500px;
-    padding: 2rem;
-    box-shadow:2px 2px 2px 2px;
+    margin-left: 450px;
+    padding: 10px 40px;
+    box-shadow:2px 2px 2px 2px gray;
     background-color: #FFFFFF;
-    color: #989898;
+    // color: #989898;
     border-radius:10px;
     &_header {
-        h1 {
-            color:#396CC5;
-        }
+        // display: flex;
+        font-size: 15px;
+        font: normal normal normal 18px Microsoft Sans Serif;
     }
+
     &_container {
         gap: 1rem;
         display: flex;
@@ -31,6 +32,9 @@
     &_footer {
         padding-top: 1rem;
     }
+    .addbtn{
+        border-radius: 10px;
+      }
 }
 // custom styles for inputs
 label{

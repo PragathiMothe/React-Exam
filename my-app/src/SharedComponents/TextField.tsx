@@ -28,6 +28,7 @@ ITextFieldFormProps) => {
   const { control, register } = useFormContext();
   return (
     <>
+    
       <Controller
         control={control}
         name={name}
@@ -44,6 +45,7 @@ ITextFieldFormProps) => {
               > 
                 <TextField
                   label={label}
+                  styles={{fieldGroup:{background:"rgb(237,237,237)", border:0}}}
                   disabled={isdisabled}
                   readOnly={isReadyOnly}
                   defaultValue={defaultValue}

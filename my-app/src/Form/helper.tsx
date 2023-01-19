@@ -18,6 +18,7 @@ export const NewStudentFormElements = [
         type: "TextFieldForm",
         name: "English",
         label: "English",
+        
     //     isRequired: true,
      },
     {

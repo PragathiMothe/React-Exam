@@ -119,10 +119,11 @@ const View = () => {
             isResizable: true,
             onRender: (item: any) => (
                 item.id &&
-                <>
-                    <Link className='btn' to={`/view/${item.id}`}><GrFormView size={20}/></Link>
-                    <Link className='btn' to={`/update/${item.id}`}><MdEdit size={20}/></Link>
-                    <Link className='btn' onClick={() => deleteRequest(item.id)} to=''><MdDelete size={20}/></Link>
+                <>  <div className='colbtn'>
+                    <Link className='btn' to={`/view/${item.id}`}><GrFormView size={20} color={"grey"}/></Link>
+                    <Link className='btn' to={`/update/${item.id}`}><MdEdit size={20} color={"grey"}/></Link>
+                    <Link className='btn' onClick={() => deleteRequest(item.id)} to=''><MdDelete size={20} color={"grey"}/></Link>
+                    </div>
                 </>
             )
         },

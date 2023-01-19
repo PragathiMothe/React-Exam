@@ -127,7 +127,12 @@ const StudentForm = () => {
     return (
         <div className="form">
             <div className="form_header">
+                <p>Student <span style={{color:'#396CC5'}}>Information</span></p>
             </div>
+           <div>
+           <hr/>
+           <br/>
+           </div>
             <FormProvider {...StudentFormMethods}>
                 <form onSubmit={StudentFormMethods.handleSubmit(StudentFormSubmit)}>
                     <div className="form_container">
@@ -142,18 +147,15 @@ const StudentForm = () => {
                                 </div>
                             );
                         })}
-
-                        {/* {NewEMPLOYEE_FORM_ELEMENTS?.map((item: any) => {
-                            const updatedItem = getAdditionalProps(item);
-                            return DynamicFieldLoad(item.type, updatedItem);
-                        })} */}
-
                     </div>
+                    <br/>
+                    <hr/>
                     <div className="form_footer">
-                        <PrimaryButton type="submit"
+                        {/* <PrimaryButton type="submit"
                             onClick={StudentFormMethods.handleSubmit(StudentFormSubmit)}
 
-                        >Submit</PrimaryButton>
+                        >Submit</PrimaryButton> */}
+                        <PrimaryButton className='addbtn'onClick={StudentFormMethods.handleSubmit(StudentFormSubmit)}>Submit</PrimaryButton>
                     </div>
                 </form>
             </FormProvider>
