@@ -27,24 +27,24 @@ const StudentForm = () => {
     interface IStudentData {
         name?: string;
         rollnumber?: number;
-       English?:string;
-       Telugu?:string;
-       Hindi?:string;
-       Science?:string;
-       Social?:string;
-       activites?:string;
+       English?:number;
+       Telugu?:number;
+       Hindi?:number;
+       Science?:number;
+       Social?:number;
+       activites?:number;
        totalmarks?:number;
     }
     const StudentSchema: yup.SchemaOf<IStudentData>=yup.object().shape(
         {
         name: yup.string().required().min(5),
         rollnumber: yup.number(),
-        English:yup.string(),
-        Telugu:yup.string(),
-        Hindi:yup.string(),
-        Science:yup.string(),
-        Social:yup.string(),
-        activites:yup.string(),
+        English:yup.number().max(100),
+        Telugu:yup.number().max(100),
+        Hindi:yup.number().max(100),
+        Science:yup.number().max(100),
+        Social:yup.number().max(100),
+        activites:yup.number().max(100),
         totalmarks:yup.number().max(100),
     });
 
