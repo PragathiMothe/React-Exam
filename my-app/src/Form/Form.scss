@@ -19,24 +19,23 @@
     }
 
     &_container {
-        gap: 1rem;
+        gap: 16px;
         display: flex;
         flex-direction: column;
         .rowThree{
             flex-flow: wrap;
              display: grid;
-            gap: 1rem;
-            grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+            gap: 16px;
+             grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
         }
     }
     &_footer {
-        padding-top: 1rem;
+        padding-top: 16px;
     }
     .addbtn{
         border-radius: 10px;
       }
 }
-// custom styles for inputs
 label{
     text-transform: capitalize;
 }

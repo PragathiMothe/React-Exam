@@ -12,7 +12,6 @@ const ViewIteam = () => {
     try {
       const url = `http://localhost:5000/data/${item.id}`
       const result: any = await axios.get(url);
-      // debugger
       setData(result.data)
     } catch (err) {
       console.log(err);

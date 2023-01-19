@@ -1,5 +1,4 @@
-import { IChoiceGroupOption } from "@fluentui/react";
-import { getNameOfDeclaration } from "typescript";
+
 
 export const NewStudentFormElements = [
     {

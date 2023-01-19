@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.scss';
-// import {Zelarlogo} from '../Images/Zelarlogo.jpg'
 const Header = () => {
   return (
     <div className='header'>  

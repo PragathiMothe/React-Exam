@@ -35,8 +35,6 @@ const StudentForm = () => {
        activites?:string;
        totalmarks?:number;
     }
-
-    // schema declaration validation
     const StudentSchema: yup.SchemaOf<IStudentData>=yup.object().shape(
         {
         name: yup.string().required().min(5),
