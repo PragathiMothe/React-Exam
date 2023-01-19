@@ -1,0 +1,38 @@
+#root{
+    // background-color:#9898988C;
+}
+.form {
+    width:500px;
+    border:1px,solid gray;
+    // margin:50px;
+    margin-top:40px;
+    margin-left: 500px;
+    padding: 2rem;
+    box-shadow:2px 2px 2px 2px;
+    background-color: #FFFFFF;
+    color: #989898;
+    border-radius:10px;
+    &_header {
+        h1 {
+            color:#396CC5;
+        }
+    }
+    &_container {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        .rowThree{
+            flex-flow: wrap;
+             display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        }
+    }
+    &_footer {
+        padding-top: 1rem;
+    }
+}
+// custom styles for inputs
+label{
+    text-transform: capitalize;
+}

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "totalmarks": 78,
+      "activites": "14",
+      "Social": "13",
+      "Science": "34",
+      "Hindi": "32",
+      "Telugu": "14",
+      "English": "79",
+      "rollnumber": 6,
+      "name": "pragathi",
+      "id": 0.29439867508088646
+    },
+    {
+      "totalmarks": 89,
+      "activites": "56",
+      "Social": "35",
+      "Science": "67",
+      "Hindi": "65",
+      "Telugu": "46",
+      "English": "25",
+      "rollnumber": 39,
+      "name": "Rajitha",
+      "id": 0.354861596136111
+    }
+  ]
+}
