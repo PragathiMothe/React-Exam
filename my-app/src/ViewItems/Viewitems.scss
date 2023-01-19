@@ -1,0 +1,13 @@
+.viewcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 19px;
+    border: 1px solid grey;
+    width:50%;
+    margin: 0 auto;
+    *{
+        padding:10px
+    }
+}
